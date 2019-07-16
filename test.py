@@ -51,14 +51,20 @@ imgSmooth = SimpleITK.CurvatureFlow(image1=imgT1Original,
                                     numberOfIterations=5) 
 
 #lstSeeds = [(48,149)]
-lstSeeds = [(58,178),(85,138),(92,175),(85,141),(111,158)] #种子点
-sitk_show(imgSmooth[:,:,idxSlice])
+lstSeeds = [(48,166),(112,169),(57,88),(109,81)] #种子点
+ #sitk_show(imgSmooth[:,:,idxSlice])
 imgWhiteMatter = SimpleITK.ConnectedThreshold(image1=imgT1Original[:,:,idxSlice], 
                                               seedList=lstSeeds, 
-                                              lower=0,  # 亮度区间
-                                              upper=50,
+                                              lower=60,  # 亮度区间
+                                              upper=90,
                                               replaceValue=1)
 #sitk_show(SimpleITK.Tile(imgT1Original[:, :, idxSlice],   imgT2Original[:, :, idxSlice],                          (2, 1, 0)))
 sitk_show(imgWhiteMatter)
 sitk_show(imgT1Original[:,:,idxSlice])
+
+# Rescale 'imgSmooth' and cast it to an integer type to match that of 'imgWhiteMatter'
+imgSmoothInt = SimpleITK.Cast(SimpleITK.RescaleIntensity(imgSmooth[:,:,idxSlice]), imgWhiteMatter.GetPixelID())
+
+# Use 'LabelOverlay' to overlay 'imgSmooth' and 'imgWhiteMatter'
+sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgWhiteMatter))
 
