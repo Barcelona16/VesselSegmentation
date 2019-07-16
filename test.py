@@ -66,5 +66,4 @@ sitk_show(imgT1Original[:,:,idxSlice])
 imgSmoothInt = SimpleITK.Cast(SimpleITK.RescaleIntensity(imgSmooth[:,:,idxSlice]), imgWhiteMatter.GetPixelID())
 
 # Use 'LabelOverlay' to overlay 'imgSmooth' and 'imgWhiteMatter'
-sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgWhiteMatter))
-
+sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgWhiteMatter)) # 边缘化 SimpleITK.LabelContour(imgWhiteMatter)))

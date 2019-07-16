@@ -9,3 +9,13 @@
 ### 2、MRA
 
 > 数据最大 理论上最清晰
+
+
+### 多模态
+For example, a computed tomography (CT) dataset would provide a very clear depiction of bone structures in the human body. On the other hand, magnetic resonance (MR) images provide excellent contrast in soft-tissue, e.g., muscle, brain matter, etc, anatomies barely visible with CT. In addition, differently weighted images and different contrast agents depict the same anatomies with different intensities. Such a case is the gray matter which appears darker than white matter in T1-weighted images but considerably brighter than white matter in T2-weighted images.
+
+
+
+###测试软件
+3DSlicer 图像处理
+ParaView 图像查看
