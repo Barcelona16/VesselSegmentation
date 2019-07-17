@@ -38,7 +38,7 @@ labelGrayMatter = 2
 labelWhiteMatter = 1
  
 imgT1Original = SimpleITK.ReadImage(filenameT2)
-imgT2Original = SimpleITK.ReadImage(filenameT5)
+imgT2Original = SimpleITK.ReadImage(filenameT4)
 
 #---------------平滑处理
 #The CurvatureFlowImageFilter class “implements a curvature driven image denoising algorithm”.
@@ -53,7 +53,7 @@ imgSmooth = SimpleITK.CurvatureFlow(image1=imgT1Original,
 #lstSeeds = [(48,149)]
 lstSeeds = [(48,166),(112,169),(57,88),(109,81)] #种子点
  #sitk_show(imgSmooth[:,:,idxSlice])
-imgWhiteMatter = SimpleITK.ConnectedThreshold(image1=imgT1Original[:,:,idxSlice], 
+imgWhiteMatter = SimpleITK.ConnectedThreshold(image1=imgSmooth[:,:,idxSlice], 
                                               seedList=lstSeeds, 
                                               lower=60,  # 亮度区间
                                               upper=90,
