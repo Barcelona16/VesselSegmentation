@@ -12,18 +12,20 @@ def drawTre(address):
     r=[]
     npoints=0
     lenofx=0
+    radicus=0
     ax = plt.axes(projection='3d')
     for line in alllines:
         line = re.split("[ ]",line)
         if(line[0]=="NPoints"):
             npoints=int(line[2])+1
-            #ax.scatter(x,y,z,linewidths=10,marker='d') 
-            #plt.savefig("examples.png")
+            #ax.scatter(x,y,z,c='r',linewidths=r,marker='.') 
+            plt.plot(x,y,z,linewidth=radicus*2)
+            #plt.savefig("./vesselImg/examples"+str(lenofx)+".png")
             lenofx=lenofx+1
             print(lenofx)
-            # x=[]
-            # y=[]
-            # z=[]
+            x=[]
+            y=[]
+            z=[]
             # r=[]
         elif(npoints!=0):
             npoints=npoints-1
@@ -32,10 +34,12 @@ def drawTre(address):
                 y.append(float(line[1]))
                 z.append(float(line[2]))
                 r.append(float(line[3]))
+                radicus=float(line[3])
     cValue = ['r','y','g','b','r','y','g','b','r'] 
-    ax.scatter(x,y,z,c='r',linewidths=r,marker='.') 
+    #ax.scatter(x,y,z,c='r',linewidths=r,marker='.') 
     #plt.plot(x,y,z,markersize=r)
     print(max(r))
+    print(min(r))
     print(len(r))   
     plt.show()
     #plt.savefig("examples.png")
