@@ -9,24 +9,34 @@ def drawTre(address):
     x=[]    
     y=[]
     z=[]
+    r=[]
     npoints=0
+    lenofx=0
     ax = plt.axes(projection='3d')
     for line in alllines:
         line = re.split("[ ]",line)
         if(line[0]=="NPoints"):
-            npoints=float(line[2])+1
-            plt.plot(x,y,z)
-            x=[]
-            y=[]
-            z=[]
+            npoints=int(line[2])+1
+            #ax.scatter(x,y,z,linewidths=10,marker='d') 
+            #plt.savefig("examples.png")
+            lenofx=lenofx+1
+            print(lenofx)
+            # x=[]
+            # y=[]
+            # z=[]
+            # r=[]
         elif(npoints!=0):
             npoints=npoints-1
             if(line[0]!="Points"):
                 x.append(float(line[0]))
                 y.append(float(line[1]))
                 z.append(float(line[2]))
-                #print(type(line[0]))
-    plt.plot(x,y,z)
+                r.append(float(line[3]))
+    cValue = ['r','y','g','b','r','y','g','b','r'] 
+    ax.scatter(x,y,z,c='r',linewidths=r,marker='.') 
+    #plt.plot(x,y,z,markersize=r)
+    print(max(r))
+    print(len(r))   
     plt.show()
-
+    #plt.savefig("examples.png")
 drawTre("./VesselData/Normal-002/AuxillaryData/VascularNetwork.tre")

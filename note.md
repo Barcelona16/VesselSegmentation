@@ -19,3 +19,7 @@ For example, a computed tomography (CT) dataset would provide a very clear depic
 ###测试软件
 3DSlicer 图像处理
 ParaView 图像查看
+
+
+### plot和scatter参数
+https://blog.csdn.net/C0die/article/details/80849243
