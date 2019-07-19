@@ -23,3 +23,18 @@ ParaView 图像查看
 
 ### plot和scatter参数
 https://blog.csdn.net/C0die/article/details/80849243
+
+
+### 邮箱
+bullitt@med.unc.edu
+https://www.insight-journal.org/midas/community/view/21
+引用信息
+
+https://itk.org/Wiki/ITK/MetaIO/Documentation    
+>头文件信息
+
+https://github.com/KitwareMedical/ITKTubeTK/pull/792/commits/1779323219ac5ffa17e94ad1a9254e6bdf81b4e9
+>脚本
+
+https://data.kitware.com/#collection/5888b7d38d777f4f3f3085a8/folder/58a3788a8d777f0721a65977
+>数据地址

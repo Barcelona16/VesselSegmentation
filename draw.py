@@ -22,10 +22,10 @@ def drawTre(address):
             plt.plot(x,y,z,linewidth=radicus*2)
             #plt.savefig("./vesselImg/examples"+str(lenofx)+".png")
             lenofx=lenofx+1
-            print(lenofx)
-            x=[]
-            y=[]
-            z=[]
+            #print(lenofx)
+            x=[] #346
+            y=[] #386
+            z=[] #118
             # r=[]
         elif(npoints!=0):
             npoints=npoints-1
@@ -40,6 +40,9 @@ def drawTre(address):
     #plt.plot(x,y,z,markersize=r)
     print(max(r))
     print(min(r))
+    print(max(x))
+    print(max(y))
+    print(max(z))
     print(len(r))   
     plt.show()
     #plt.savefig("examples.png")
