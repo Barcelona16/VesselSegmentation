@@ -1,0 +1,176 @@
+TubeSpatialObject (0000027210554C10)
+  TubeSpatialObject(0000027210554C10)
+  End Type : 0
+  Parent Point : -1
+  Root : 0
+  PointBasedSpatialObject(0000027210554C10)
+  Number of points: 0
+  RTTI typeinfo:   class itk::TubeSpatialObject<3,class itk::TubeSpatialObjectPoint<3> >
+  Reference Count: 1
+  Modified Time: 85
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 0
+  RealTimeStamp: 0 seconds 
+  Id:-1
+  TypeName:TubeSpatialObject
+  ParentId:-1
+  Parent:0000000000000000
+  LargestPossibleRegion:ImageRegion (0000027210554D50)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  RequestedRegion:ImageRegion (0000027210554D88)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  BufferedRegion:ImageRegion (0000027210554DC0)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  My Bounding Box In Object Space:
+  BoundingBox (000002720EA36C50)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 2
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  My Bounding Box In World Space:
+  BoundingBox (000002720EA36610)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 4
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In Object Space:
+  BoundingBox (000002720EA36F70)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 6
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In World Space:
+  BoundingBox (000002720EA36430)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 8
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Object to World Transform: AffineTransform (000002721047A5C0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 83
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to World Transform Inverse: AffineTransform (000002720ED243E0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 84
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [-0, -0, -0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform: AffineTransform (00000272105CC650)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 57
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform Inverse: AffineTransform (0000027210596290)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 59
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+
+
+  Object properties: 
+  ChildrenList:0
+  DefaultInsideValue:1
+  DefaultOutsideValue:0
+
