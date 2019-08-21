@@ -12,19 +12,19 @@ outputImage = sys.argv[2]
 PixelType = itk.UC
 Dimension = 3
 
-ImageType = itk.Image[PixelType, Dimension]
+#ImageType = itk.Image[PixelType, Dimension]
 
-ReaderType = itk.TubeSpatialObject[3]
-Output=itk.Image[PixelType,Dimension]
+ReaderType = itk.SpatialObject[3]
+#Output=itk.Image[PixelType,Dimension]
 reader = ReaderType.New()
 reader.GetProperty().SetName(inputImage)
 output=sys.stdout
 outputfile=open("b.txt","a")
 sys.stdout=outputfile
-reader.PrintSelf()
-#itk.SpatialObjectToImageFilter(reader,Output)
-image=reader.GetOutput()
-print(image)
+#reader.PrintSelf()
+#print(itk.SpatialObjectToImageFilter.GetTypes(reader))
+#image=reader.GetOutput()
+print(reader)
 # RGBPixelType = itk.RGBPixel[PixelType]
 # RGBImageType = itk.Image[RGBPixelType, Dimension]
 

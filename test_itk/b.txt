@@ -174,3 +174,1069 @@ TubeSpatialObject (00000207CFA747E0)
   DefaultInsideValue:1
   DefaultOutsideValue:0
 
+TubeSpatialObject (0000022AA26E4B90)
+  TubeSpatialObject(0000022AA26E4B90)
+  End Type : 0
+  Parent Point : -1
+  Root : 0
+  PointBasedSpatialObject(0000022AA26E4B90)
+  Number of points: 0
+  RTTI typeinfo:   class itk::TubeSpatialObject<3,class itk::TubeSpatialObjectPoint<3> >
+  Reference Count: 1
+  Modified Time: 76
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 0
+  RealTimeStamp: 0 seconds 
+  Id:-1
+  TypeName:TubeSpatialObject
+  ParentId:-1
+  Parent:0000000000000000
+  LargestPossibleRegion:ImageRegion (0000022AA26E4CD0)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  RequestedRegion:ImageRegion (0000022AA26E4D08)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  BufferedRegion:ImageRegion (0000022AA26E4D40)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  My Bounding Box In Object Space:
+  BoundingBox (0000022A9CECA9F0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 2
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  My Bounding Box In World Space:
+  BoundingBox (0000022A9CECAA90)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 4
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In Object Space:
+  BoundingBox (0000022A9CECAB30)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 6
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In World Space:
+  BoundingBox (0000022A9CECABD0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 8
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Object to World Transform: AffineTransform (0000022A9F9ED710)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 74
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to World Transform Inverse: AffineTransform (0000022A9FA27860)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 75
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [-0, -0, -0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform: AffineTransform (0000022AA2145130)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 57
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform Inverse: AffineTransform (0000022AA070E5B0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 59
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+
+
+  Object properties: 
+  ChildrenList:0
+  DefaultInsideValue:1
+  DefaultOutsideValue:0
+
+<itkTemplate itk::SpatialObjectToImageFilter>
+Options:
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject2'>, <class 'itkImagePython.itkImageF2'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject2'>, <class 'itkImagePython.itkImageSS2'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject2'>, <class 'itkImagePython.itkImageUC2'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject2'>, <class 'itkImagePython.itkImageUS2'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject3'>, <class 'itkImagePython.itkImageF3'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject3'>, <class 'itkImagePython.itkImageSS3'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject3'>, <class 'itkImagePython.itkImageUC3'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject3'>, <class 'itkImagePython.itkImageUS3'>]
+TubeSpatialObject (000001347DD58A50)
+  TubeSpatialObject(000001347DD58A50)
+  End Type : 0
+  Parent Point : -1
+  Root : 0
+  PointBasedSpatialObject(000001347DD58A50)
+  Number of points: 0
+  RTTI typeinfo:   class itk::TubeSpatialObject<3,class itk::TubeSpatialObjectPoint<3> >
+  Reference Count: 1
+  Modified Time: 76
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 0
+  RealTimeStamp: 0 seconds 
+  Id:-1
+  TypeName:TubeSpatialObject
+  ParentId:-1
+  Parent:0000000000000000
+  LargestPossibleRegion:ImageRegion (000001347DD58B90)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  RequestedRegion:ImageRegion (000001347DD58BC8)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  BufferedRegion:ImageRegion (000001347DD58C00)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  My Bounding Box In Object Space:
+  BoundingBox (000001347A503E60)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 2
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  My Bounding Box In World Space:
+  BoundingBox (000001347A503C80)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 4
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In Object Space:
+  BoundingBox (000001347A503460)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 6
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In World Space:
+  BoundingBox (000001347A503FA0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 8
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Object to World Transform: AffineTransform (000001347B9AD1D0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 74
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to World Transform Inverse: AffineTransform (000001347BC58AC0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 75
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [-0, -0, -0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform: AffineTransform (000001347BCBEEF0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 57
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform Inverse: AffineTransform (000001347B111450)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 59
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+
+
+  Object properties: 
+  ChildrenList:0
+  DefaultInsideValue:1
+  DefaultOutsideValue:0
+
+<itkTemplate itk::SpatialObjectToImageFilter>
+Options:
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject2'>, <class 'itkImagePython.itkImageF2'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject2'>, <class 'itkImagePython.itkImageSS2'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject2'>, <class 'itkImagePython.itkImageUC2'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject2'>, <class 'itkImagePython.itkImageUS2'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject3'>, <class 'itkImagePython.itkImageF3'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject3'>, <class 'itkImagePython.itkImageSS3'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject3'>, <class 'itkImagePython.itkImageUC3'>]
+  [<class 'itkSpatialObjectBasePython.itkSpatialObject3'>, <class 'itkImagePython.itkImageUS3'>]
+None
+TubeSpatialObject (000001D68FEDEAD0)
+  TubeSpatialObject(000001D68FEDEAD0)
+  End Type : 0
+  Parent Point : -1
+  Root : 0
+  PointBasedSpatialObject(000001D68FEDEAD0)
+  Number of points: 0
+  RTTI typeinfo:   class itk::TubeSpatialObject<3,class itk::TubeSpatialObjectPoint<3> >
+  Reference Count: 1
+  Modified Time: 76
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 0
+  RealTimeStamp: 0 seconds 
+  Id:-1
+  TypeName:TubeSpatialObject
+  ParentId:-1
+  Parent:0000000000000000
+  LargestPossibleRegion:ImageRegion (000001D68FEDEC10)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  RequestedRegion:ImageRegion (000001D68FEDEC48)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  BufferedRegion:ImageRegion (000001D68FEDEC80)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  My Bounding Box In Object Space:
+  BoundingBox (000001D68C3E9710)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 2
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  My Bounding Box In World Space:
+  BoundingBox (000001D68C3E9E90)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 4
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In Object Space:
+  BoundingBox (000001D68C3EA070)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 6
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In World Space:
+  BoundingBox (000001D68C3E9AD0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 8
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Object to World Transform: AffineTransform (000001D68CEA4FA0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 74
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to World Transform Inverse: AffineTransform (000001D68C4FF970)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 75
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [-0, -0, -0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform: AffineTransform (000001D68D7D3D10)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 57
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform Inverse: AffineTransform (000001D68D066140)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 59
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+
+
+  Object properties: 
+  ChildrenList:0
+  DefaultInsideValue:1
+  DefaultOutsideValue:0
+
+TubeSpatialObject (000002602D4EB900)
+  TubeSpatialObject(000002602D4EB900)
+  End Type : 0
+  Parent Point : -1
+  Root : 0
+  PointBasedSpatialObject(000002602D4EB900)
+  Number of points: 0
+  RTTI typeinfo:   class itk::TubeSpatialObject<3,class itk::TubeSpatialObjectPoint<3> >
+  Reference Count: 1
+  Modified Time: 76
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 0
+  RealTimeStamp: 0 seconds 
+  Id:-1
+  TypeName:TubeSpatialObject
+  ParentId:-1
+  Parent:0000000000000000
+  LargestPossibleRegion:ImageRegion (000002602D4EBA40)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  RequestedRegion:ImageRegion (000002602D4EBA78)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  BufferedRegion:ImageRegion (000002602D4EBAB0)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  My Bounding Box In Object Space:
+  BoundingBox (000002602AF8E820)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 2
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  My Bounding Box In World Space:
+  BoundingBox (000002602AF8EC80)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 4
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In Object Space:
+  BoundingBox (000002602AF8EA00)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 6
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In World Space:
+  BoundingBox (000002602AF8E960)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 8
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Object to World Transform: AffineTransform (00000260279194C0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 74
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to World Transform Inverse: AffineTransform (000002602B08FDA0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 75
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [-0, -0, -0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform: AffineTransform (000002602A67AE80)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 57
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform Inverse: AffineTransform (000002602A496D20)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 59
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+
+
+  Object properties: 
+  ChildrenList:0
+  DefaultInsideValue:1
+  DefaultOutsideValue:0
+
+<Swig Object of type 'std::vector< itkTubeSpatialObjectPoint3,std::allocator< itkTubeSpatialObjectPoint3 > > *' at 0x000001F7E5C829F0>
+SpatialObject (000001CAC136B630)
+  RTTI typeinfo:   class itk::SpatialObject<3>
+  Reference Count: 1
+  Modified Time: 1
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 0
+  RealTimeStamp: 0 seconds 
+  Id:-1
+  TypeName:SpatialObject
+  ParentId:-1
+  Parent:0000000000000000
+  LargestPossibleRegion:ImageRegion (000001CAC136B770)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  RequestedRegion:ImageRegion (000001CAC136B7A8)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  BufferedRegion:ImageRegion (000001CAC136B7E0)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  My Bounding Box In Object Space:
+  BoundingBox (000001CABB6FDCC0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 2
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  My Bounding Box In World Space:
+  BoundingBox (000001CABB6FD9A0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 4
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In Object Space:
+  BoundingBox (000001CABB6FDEA0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 6
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In World Space:
+  BoundingBox (000001CABB6FDA40)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 8
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Object to World Transform: AffineTransform (000001CABE466690)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 14
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to World Transform Inverse: AffineTransform (000001CABDA611B0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 16
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform: AffineTransform (000001CAC0CF9630)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 10
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform Inverse: AffineTransform (000001CABEB9BB80)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 12
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+
+
+  Object properties: 
+  ChildrenList:0
+  DefaultInsideValue:1
+  DefaultOutsideValue:0
+
+SpatialObject (0000022746CFC390)
+  RTTI typeinfo:   class itk::SpatialObject<3>
+  Reference Count: 1
+  Modified Time: 1
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 0
+  RealTimeStamp: 0 seconds 
+  Id:-1
+  TypeName:SpatialObject
+  ParentId:-1
+  Parent:0000000000000000
+  LargestPossibleRegion:ImageRegion (0000022746CFC4D0)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  RequestedRegion:ImageRegion (0000022746CFC508)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  BufferedRegion:ImageRegion (0000022746CFC540)
+  Dimension: 3
+  Index: [0, 0, 0]
+  Size: [0, 0, 0]
+
+  My Bounding Box In Object Space:
+  BoundingBox (000002274360CDF0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 2
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  My Bounding Box In World Space:
+  BoundingBox (000002274360C3F0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 4
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In Object Space:
+  BoundingBox (000002274360BEF0)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 6
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Family Bounding Box In World Space:
+  BoundingBox (000002274360C710)
+  RTTI typeinfo:   class itk::BoundingBox<unsigned __int64,3,double,class itk::VectorContainer<unsigned __int64,class itk::Point<double,3> > >
+  Reference Count: 2
+  Modified Time: 8
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Bounding Box: ( 0,0 0,0 0,0  )
+
+  Object to World Transform: AffineTransform (0000022743033B90)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 14
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to World Transform Inverse: AffineTransform (00000227435A1050)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 16
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform: AffineTransform (000002274483EAE0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 10
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+  Object to Parent Transform Inverse: AffineTransform (00000227447FC1E0)
+  RTTI typeinfo:   class itk::AffineTransform<double,3>
+  Reference Count: 2
+  Modified Time: 12
+  Debug: Off
+  Object Name: 
+  Observers: 
+    none
+  Matrix: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Offset: [0, 0, 0]
+  Center: [0, 0, 0]
+  Translation: [0, 0, 0]
+  Inverse: 
+    1 0 0 
+    0 1 0 
+    0 0 1 
+  Singular: 0
+
+
+
+  Object properties: 
+  ChildrenList:0
+  DefaultInsideValue:1
+  DefaultOutsideValue:0
+
