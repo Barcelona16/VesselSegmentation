@@ -14,28 +14,22 @@ Dimension = 3
 
 #ImageType = itk.Image[PixelType, Dimension]
 
-ReaderType = itk.SpatialObject[3]
+ReaderType = itk.SpatialObjectReader[3]
 #Output=itk.Image[PixelType,Dimension]
 reader = ReaderType.New()
-reader.GetProperty().SetName(inputImage)
-output=sys.stdout
-outputfile=open("b.txt","a")
-sys.stdout=outputfile
+reader.SetFileName(inputImage)
+reader.Update()
+group = reader.GetGroup()
+print(group.GetNumberOfChildren())
+# reader.GetProperty().SetName(inputImage)
+# output=sys.stdout
+# outputfile=open("b.txt","a")
+# sys.stdout=outputfile
 #reader.PrintSelf()
 #print(itk.SpatialObjectToImageFilter.GetTypes(reader))
 #image=reader.GetOutput()
-print(reader)
-# RGBPixelType = itk.RGBPixel[PixelType]
-# RGBImageType = itk.Image[RGBPixelType, Dimension]
+tube = group.GetObjectById(2)
+print(tube)
 
-# RGBFilterType = itk.ScalarToRGBColormapImageFilter[ImageType, RGBImageType]
-# rgbfilter = RGBFilterType.New()
-# rgbfilter.SetInput(reader.GetOutput())
-# rgbfilter.SetColormap(RGBFilterType.Hot)
-
-# WriterType = itk.ImageFileWriter[ImageType]
-# writer = WriterType.New()
-# writer.SetFileName(outputImage)
-# writer.SetInput(reader.GetOutput())
 
 # writer.Update()
