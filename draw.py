@@ -1,7 +1,15 @@
 import re
-from matplotlib import pyplot as plt
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits import mplot3d
+import csv
+def writecsv(filename,x,y,z):
+    f = open('test.csv','a+',encoding='utf-8',newline='')
+    csv_writer = csv.writer(f)
+    csv_writer.writerow([x,y,z])
+    f.close()
 def drawTre(address):
     f = open(address, "r")
     alllines=f.readlines()
@@ -33,6 +41,7 @@ def drawTre(address):
                 x.append(float(line[0]))
                 y.append(float(line[1]))
                 z.append(float(line[2]))
+                writecsv("test.csv",float(line[0]),float(line[1]),float(line[2]))
                 r.append(float(line[3]))
                 radicus=float(line[3])
     cValue = ['r','y','g','b','r','y','g','b','r'] 
@@ -44,6 +53,7 @@ def drawTre(address):
     # print(max(y))
     # print(max(z))
     # print(len(r))   
+    print(x)
     plt.show()
     #plt.savefig("examples.png")
-drawTre("./VesselData/Normal-002/AuxillaryData/VascularNetwork.tre")
+drawTre("VascularNetwork.tre")
