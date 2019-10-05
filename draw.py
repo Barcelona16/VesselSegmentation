@@ -43,7 +43,14 @@ def drawTre(address):
                 z.append(float(line[2]))
                 writecsv("test.csv",float(line[0]),float(line[1]),float(line[2]))
                 r.append(float(line[3]))
+
                 radicus=float(line[3])
+                writecsv("test.csv",float(line[0])+radicus,float(line[1]),float(line[2]))
+                writecsv("test.csv",float(line[0])-radicus,float(line[1]),float(line[2]))
+                writecsv("test.csv",float(line[0]),float(line[1])+radicus,float(line[2]))
+                writecsv("test.csv",float(line[0]),float(line[1])-radicus,float(line[2]))
+                writecsv("test.csv",float(line[0]),float(line[1]),float(line[2])+radicus)
+                writecsv("test.csv",float(line[0]),float(line[1]),float(line[2])-radicus)
     cValue = ['r','y','g','b','r','y','g','b','r'] 
     #ax.scatter(x,y,z,c='r',linewidths=r,marker='.') 
     #plt.plot(x,y,z,markersize=r)
